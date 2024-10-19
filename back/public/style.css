@@ -1,0 +1,69 @@
+/**********header**********/
+nav.navbar{
+    justify-content: flex-start;
+    color: white;
+    padding-inline: 1rem;
+  }
+.navbar-brand{
+    display: block;
+    flex-grow: 1;
+    text-align: center;
+    color: inherit;
+  }
+  .navbar {
+    background-color: gold;
+  }
+  .nom {
+    text-align: center;
+  }
+  .navbar i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  /************main************/
+  main {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 3rem auto;
+  }
+  .card {
+    flex-basis: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .sectionCards{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+ 
+  .sectionAdd{
+    flex-basis: 20%;
+  }
+  footer img {
+    width: 80px;
+    height: 75px;
+  }
+  .btnAdd{
+    width: 180px;
+    padding: 8px;
+    background-color: gold;
+    color: white;
+    font-size: 20px;
+  }
+ 
+  .formAdd{
+    margin: 2%;
+  }
+  .formAdd h5 {
+    margin: 10px;
+  }
+
+  .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
